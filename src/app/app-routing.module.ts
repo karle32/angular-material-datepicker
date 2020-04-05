@@ -4,8 +4,8 @@ import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent , pathMatch: 'full'},
   { path: 'datepicker', loadChildren: () => import('./datepicker/datepicker.module').then(m => m.DatepickerModule)},
+  { path: '', component: HomeComponent , pathMatch: 'full'},
 ];
 
 @NgModule({
