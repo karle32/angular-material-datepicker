@@ -9,11 +9,6 @@ import { FormControl } from '@angular/forms';
 export class DatepickerComponent implements OnInit {
 
   @ViewChild('myPicker') myPicker;
-  contactName:  string  =  "";
-  contactAddress:  string  =  "";
-  contactSource:  string  =  "direct";
-  contactGender:  string  =  "male";
-  isDeleted  :  boolean  =  false;
   date  =  new  FormControl(new  Date());
 
   constructor() { }
